@@ -1,0 +1,148 @@
+<!-- Jane Bear November 5, 2026 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ten fun places to visit across the world</title>
+    <style>
+    /* Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html, body {
+      background: linear-gradient(90deg,rgba(80, 132, 153, 1) 0%, rgba(189, 114, 204, 1) 50%, rgba(194, 85, 136, 1) 100%); /* change this line */
+      padding: 15px;
+      border: 2px solid #190329;
+      border-radius: 20px;
+      font-family: Arial, Helvetica, sans-serif;
+      color: #fff;
+      min-height: 100vh;
+    }
+
+    h1, h2 {
+      font-size: 3vh;
+      padding: 2vh;
+    }
+
+    h2 {
+      border-bottom: 2px solid #25053a;
+      margin-bottom: 10px;
+    }
+
+    /* Grid container */
+    .grid-wrapper {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      grid-gap: 1rem;
+      grid-auto-rows: minmax(250px, auto);
+      grid-auto-flow: dense;
+    }
+
+    /* Grid item spans */
+    .wide {
+      grid-column: span 2;
+    }
+
+    .tall {
+      grid-row: span 2;
+    }
+
+    /* Each figure is a grid item */
+    figure {
+      margin: 0;
+      border-radius: 5px;
+      overflow: hidden;
+      border: 2px solid #1d2633;
+      background-color: #1e2947;
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+    }
+
+    figure img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+      flex-grow: 1;
+      display: block;
+      border-bottom: 1px solid #1d2633;
+    }
+
+    figcaption {
+      padding: 8px 10px;
+      background-color: #1e2947;
+      color: white;
+      font-size: 2.5vh;
+      text-align: center;
+      flex-shrink: 0;
+    }
+    </style>
+</head>
+<body>
+
+  <header>
+    <h1>A top 10 list of places I'd lke to visit</h1>
+    <h2>What are your top 10?</h2>
+  </header>
+
+  <main>
+    <section class="grid-wrapper">
+      <figure class="standard">
+        <img src="images/niagarafalls.jpg" alt="Niagara Falls">
+        <figcaption>Niagara Falls</figcaption>
+      </figure>
+
+      <figure class="wide">
+        <img src="images/rochester.jpg" alt="The skyline of Rochester, New York">
+         <figcaption>Rochester</figcaption>
+
+      </figure>
+      <figure class="wide">
+        <img src="images/chile.webp" alt="A Descripton here">
+          <figcaption>Chile</figcaption>
+      </figure>
+
+      <figure class="standard">
+        <img src="images/jirisan.jpg" alt="A Descripton here">
+          <figcaption>Mt. Jirisan</figcaption>
+      </figure>
+
+      <figure class="standard">
+        <img src="images/southkoreapalace.jpg" alt="A Descripton here">
+        <figcaption>South Korea</figcaption>
+      </figure>
+
+      <figure class="wide">
+        <img src="images/india.jpg" alt="A Descripton here">
+          <figcaption>India</figcaption>
+      </figure>
+
+       <figure class="wide">
+        <img src="images/japan.jpg" alt="A Descripton here">
+          <figcaption>Japan</figcaption>
+      </figure>
+
+      <figure class="wide">
+      <img src="images/norway.jpg" alt="A Descripton here">
+        <figcaption>Norway</figcaption>
+      </figure>
+
+      <figure class="standard">
+      <img src="images/grandcanyon.jpg" alt="Grand Canyon">
+         <figcaption>Grand Canyon</figcaption>
+      </figure>
+
+      <figure class="wide">
+      <img src="images/greatwallchina.jpg" alt="Great Wall of China">
+        <figcaption>The Great Wall of China</figcaption>
+      </figure> 
+  
+    </section>
+  </main>
+
+</body>
+</html>
